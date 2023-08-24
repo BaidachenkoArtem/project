@@ -2266,22 +2266,6 @@ textarea.form-contacts__input {
   pointer-events: none;
 }
 
-.gallery {
-  opacity: 0;
-  -webkit-transform: translate(0px, 80px);
-      -ms-transform: translate(0px, 80px);
-          transform: translate(0px, 80px);
-  -webkit-transition: all 0.6s;
-  transition: all 0.6s;
-}
-
-.gallery._watcher-view {
-  opacity: 1;
-  -webkit-transform: translate(0px, 0px);
-      -ms-transform: translate(0px, 0px);
-          transform: translate(0px, 0px);
-}
-
 .gallery__items {
   display: -ms-grid;
   display: grid;
